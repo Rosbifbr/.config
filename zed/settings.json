@@ -7,8 +7,14 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "base_keymap": "VSCode",
   "vim_mode": true,
   "ui_font_size": 16,
+  "languages": {
+    "JavaScript": {
+      "format_on_save": "language_server" //Zed's formatting can be pretty aggressive
+    }
+  },
   "buffer_font_size": 16,
   "terminal": {},
   "theme": {

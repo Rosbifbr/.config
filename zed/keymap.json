@@ -1,8 +1,9 @@
 [
   {
-    "context": "Editor",
+    "context": "Workspace || Editor",
     "bindings": {
-      "ctrl-j": "workspace::OpenTerminal"
+      "ctrl-j": "workspace::ToggleBottomDock",
+      "ctrl-r": "projects::OpenRecent"
     }
   }
 ]
