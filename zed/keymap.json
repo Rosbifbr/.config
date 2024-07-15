@@ -3,7 +3,11 @@
     "context": "Workspace || Editor",
     "bindings": {
       "ctrl-j": "workspace::ToggleBottomDock",
-      "ctrl-r": "projects::OpenRecent"
+      "ctrl-r": "projects::OpenRecent",
+      "ctrl-shift-c": "workspace::NewCenterTerminal",
+      //shortcuts from my beloved konsole
+      "ctrl-(": "pane::SplitLeft",
+      "ctrl-)": "pane::SplitDown"
     }
   }
 ]
