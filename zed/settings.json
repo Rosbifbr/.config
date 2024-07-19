@@ -13,7 +13,7 @@
   "buffer_font_size": 13,
   "languages": {
     "JavaScript": {
-      "format_on_save": "language_server" //Zed's formatting can be pretty aggressive
+      "format_on_save": "off" //Zed's formatting can be pretty aggressive
     }
   },
   "terminal": {},
