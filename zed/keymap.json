@@ -7,7 +7,8 @@
       "ctrl-shift-c": "workspace::NewCenterTerminal",
       "ctrl-shift-k": "terminal::Clear",
       "ctrl-(": "pane::SplitLeft",
-      "ctrl-)": "pane::SplitDown"
+      "ctrl-)": "pane::SplitDown",
+      "ctrl-i": "assistant::InlineAssist"
     }
   }
 ]
