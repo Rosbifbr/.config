@@ -1,12 +1,11 @@
 [
   {
-    "context": "Workspace || Editor",
+    "context": "Workspace || Editor || Terminal",
     "bindings": {
       "ctrl-j": "workspace::ToggleBottomDock",
       "ctrl-r": "projects::OpenRecent",
       "ctrl-shift-c": "workspace::NewCenterTerminal",
       "ctrl-shift-k": "terminal::Clear",
-      //shortcuts from my beloved konsole
       "ctrl-(": "pane::SplitLeft",
       "ctrl-)": "pane::SplitDown"
     }
